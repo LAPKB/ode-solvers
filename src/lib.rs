@@ -15,6 +15,9 @@ pub mod dop_shared;
 pub mod dopri5;
 pub mod rk4;
 
+pub mod sde_em;
+pub mod sde_shared;
+
 pub use dop853::Dop853;
 pub use dopri5::Dopri5;
 pub use rk4::Rk4;
